@@ -5,6 +5,12 @@
     gap: 20px;
 }
 
+.green {
+    grid-column: span 2;
+    grid-row: 1/3;
+    justify-self: start;
+}
+
 .zone {
     cursor: pointer;
     /* display: inline-block; */
